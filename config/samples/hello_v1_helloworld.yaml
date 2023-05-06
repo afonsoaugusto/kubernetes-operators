@@ -1,0 +1,12 @@
+apiVersion: hello.afonsorodrigues.com/v1
+kind: HelloWorld
+metadata:
+  labels:
+    app.kubernetes.io/name: helloworld
+    app.kubernetes.io/instance: helloworld-sample
+    app.kubernetes.io/part-of: projeto
+    app.kubernetes.io/managed-by: kustomize
+    app.kubernetes.io/created-by: projeto
+  name: helloworld-sample
+spec:
+  # TODO(user): Add fields here
